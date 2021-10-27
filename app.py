@@ -6,7 +6,13 @@ import pandas as pd
 model = pickle.load(open("Home_Loan.pkl","rb"))
 
 def main():
-    st.title("Home Loan Prediction")
+    #st.title("Home Loan Prediction")
+    html_temp = """
+    <div style="background-color:powderblue;padding:10px">
+    <h2 style="color:white;text-align:center;">Streamlit Home Loan Prediction ML App </h2>
+    </div>
+    """
+    st.markdown(html_temp,unsafe_allow_html=True)
     Gender = st.text_input("Gender","Choose 0 if Female Else 1")
     Married = st.text_input("Married","Choose 0 if No Else 1")
     Education = st.text_input("Education","Choose 0 if Graduate Else 1")
