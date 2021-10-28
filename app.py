@@ -16,12 +16,12 @@ def main():
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    html_temp = """
-    <div style="background-color:Aquamarine;padding:10px">
-    <h2 style="color:white;text-align:center;">Enter the following details to check customer eligibility </h2>
-    </div>
-    """
-    st.markdown(html_temp,unsafe_allow_html=True)
+    #html_temp = """
+    #<div style="background-color:Aquamarine;padding:10px">
+    #<h2 style="color:white;text-align:center;">Enter the following details to check customer eligibility </h2>
+    #</div>
+    #"""
+    #st.markdown(html_temp,unsafe_allow_html=True)
     Gender = st.text_input("Gender","Choose 0 if Female Else 1 if Male")
     Married = st.text_input("Married","Choose 0 if No Else 1 if Yes")
     Education = st.text_input("Education","Choose 0 if Graduate Else 1 if Not Graduate")
