@@ -32,7 +32,7 @@ def main():
     Self_Employed = st.text_input("Self_Employed","Choose 0 if No Else 1 if Yes")
     ApplicantIncome = st.text_input("ApplicantIncome","Enter Applicant Income in Thousands if any")
     CoapplicantIncome = st.text_input("CoapplicantIncome","Enter Co-Applicant Income in Thousands if any")
-    LoanAmount = st.text_input("LoanAmount","Enter Loan Amount(0-900)in thousands")
+    LoanAmount = st.text_input("LoanAmount","Enter Loan Amount(0-900)thousands")
     Loan_Amount_Term = st.text_input("Loan_Amount_Term","Enter Loan term in Months")
     Credit_History = st.text_input("Credit_History","Choose 0 if No Credit History Else 1 if Yes")
     Property_Area_Rural = st.text_input("Property_Area_Rural","If Property_Area_Rural is 1 then Property_Area_Semiurban and Urban is 0")
