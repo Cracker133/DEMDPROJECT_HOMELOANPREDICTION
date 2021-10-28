@@ -8,8 +8,8 @@ model = pickle.load(open("Home_Loan.pkl","rb"))
 def main():
     st.title("Home Loan Prediction")
     html_temp = """
-    <div style="background-color:Aqua;padding:10px">
-    <h2 style="color:white;text-align:center;">Choose the following details to check your eligibility </h2>
+    <div style="background-color:Aquamarine;padding:10px">
+    <h2 style="color:white;text-align:center;">Enter the following details to check customer eligibility </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
@@ -31,9 +31,9 @@ def main():
     if st.button("Predict"): #making and printing our prediction
         result = model.predict(inputs)
     if result == 0:
-        st.success('Sorry!You are not eligible for Loan {}'.format(result))
+        st.success('Sorry ! You are not eligible for Loan {}'.format(result))
     elif result ==1:
-        st.success('Congrats!You are  eligible for Loan {}'.format(result))
+        st.success('Congrats ! You are eligible for Loan {}'.format(result))
         
 if __name__=="__main__":
     main()
