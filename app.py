@@ -11,11 +11,11 @@ def main():
     """
     <style>
     .reportview-container {
-        background: url("https://image.shutterstock.com/image-photo/model-house-paperwork-cash-money-260nw-1051086671.jpg")
+        background: url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW9ydGdhZ2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80")
     }
-   .sidebar .sidebar-content {
-        background: url("https://image.shutterstock.com/image-photo/model-house-paperwork-cash-money-260nw-1051086671.jpg")
-    }
+   #.sidebar .sidebar-content {
+    #    background: url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW9ydGdhZ2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80")
+    #}
     </style>
     """,
     unsafe_allow_html=True
