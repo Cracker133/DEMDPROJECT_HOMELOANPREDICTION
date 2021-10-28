@@ -1,6 +1,6 @@
 Problem Statement:
 
-A housing Finance company deals in all home loans. They have presence across all urban, semi urban and rural areas. Customer first apply for home loan after that company validates the customer eligibility for loan. Company wants to automate the loan eligibility process (real time) based on customer detail provided while filling online application form. These details are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others. The goal is to identify those customers , those are eligible for loan amount so that they can specifically target these customers.
+A housing Finance company deals in all home loans. They have presence across all urban, semi urban and rural areas. Customer first apply for home loan after that company validates the customer eligibility for loan. Company wants to automate the loan eligibility process (real time) based on customer detail provided while filling online application form. These details are Gender, Marital Status, Education, Income, Loan Amount, Credit History and others. The goal is to identify those customers , those are eligible for loan amount so that they can specifically target these customers.
 
 This is a standard supervised classification task.A classification problem where we have to predict whether a loan would be approved or not. In a classification problem, we have to predict discrete values based on a given set of independent variable(s).
 
@@ -15,8 +15,6 @@ Loan_ID -->> Unique Loan ID
 Gender -->> Male/ Female
 
 Married -->> Applicant married (Y/N)
-
-Dependents -->> Number of dependents
 
 Education -->> Applicant Education (Graduate/ Under Graduate)
 
