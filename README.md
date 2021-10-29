@@ -33,3 +33,5 @@ Credit_History -->> credit history meets guidelines
 Property_Area -->> Urban/ Semi Urban/ Rural
 
 Loan_Status -->> Loan approved (Y/N)
+
+Dataset Link : https://www.kaggle.com/gavincanacam/home-loan-predictions?select=Train_Loan_Home.csv
